@@ -240,7 +240,7 @@ class _MyAdminPageState extends State<_AdminPage>{
                       );
               },
               child: Container(
-                margin: EdgeInsets.only(left:10, right:10, top: 30,bottom: 30),
+                margin: EdgeInsets.only(left:10, right:10, top: 30,bottom: 60),
                 padding: EdgeInsets.all(20),
                 alignment: Alignment(0.0,0.0),
                 constraints: BoxConstraints.expand(height: 180, width: 190),
@@ -269,7 +269,7 @@ class _MyAdminPageState extends State<_AdminPage>{
                       );
               },
               child: Container(
-                margin: EdgeInsets.only(top: 30,bottom: 30),
+                margin: EdgeInsets.only(top: 30,bottom: 60),
                 padding: EdgeInsets.all(20),
                 alignment: Alignment(0.0,0.0),
                 constraints: BoxConstraints.expand(height: 180, width: 190),
@@ -303,7 +303,8 @@ class _MyAdminPageState extends State<_AdminPage>{
                   Navigator.pop(context);
                 },
               )
-              ]),     
+              ]), 
+              Padding(padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0,120.0),), 
       ]
     ),
     ),
